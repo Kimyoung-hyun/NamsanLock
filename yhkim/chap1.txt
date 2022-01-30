@@ -4,19 +4,19 @@ React Track 이런 강의 들어봐야함
 useState, useEffect props State
 
 
-2.3) Requirement
+1.3) Requirement
 다운로드 : 안드로이드 앱, 안드로이드 sdk, xcode 시뮬레이터
 
 Vscode 로 바로 테스트 할 수 있음
 but 테스트 목적
 
-2.4)
+1.4)
 react native likes shell to cummunicate with OS
 
 어플의 모든것은 os 와 java script 커뮤니케이션을 위해
 
 
-2.5)
+1.5)
 react native 는 os 와 우리사이의 번역기
 rn 에는 브라우저가 없음 그저 번역기
 rn 코드 만들고 rn 이 우리 코드를 번역하고 Os 에 전달
@@ -29,3 +29,6 @@ rn 코드 만들고 rn 이 우리 코드를 번역하고 Os 에 전달
 6. 코드수행내역을 native 로 다시 전송
 
 => 브라우저 필요 x 
+
+
+
