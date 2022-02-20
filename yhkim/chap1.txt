@@ -1,0 +1,34 @@
+State....
+
+React Track 이런 강의 들어봐야함
+useState, useEffect props State
+
+
+1.3) Requirement
+다운로드 : 안드로이드 앱, 안드로이드 sdk, xcode 시뮬레이터
+
+Vscode 로 바로 테스트 할 수 있음
+but 테스트 목적
+
+1.4)
+react native likes shell to cummunicate with OS
+
+어플의 모든것은 os 와 java script 커뮤니케이션을 위해
+
+
+1.5)
+react native 는 os 와 우리사이의 번역기
+rn 에는 브라우저가 없음 그저 번역기
+rn 코드 만들고 rn 이 우리 코드를 번역하고 Os 에 전달
+
+1. event ( 사용자가 버튼 누름) native 에서 기록
+2. 이 이벤트의 데이터 수집 (ex 어디에 눌렸나)
+3. json 메시지 만들어서
+4. 자바 스크립트에서 그 json 수신
+5. 사용자가 만든 코드 수행(버튼을 누르면 빨갛게 변한다)
+6. 코드수행내역을 native 로 다시 전송
+
+=> 브라우저 필요 x 
+
+
+

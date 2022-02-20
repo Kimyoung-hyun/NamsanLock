@@ -1,0 +1,52 @@
+2.0)
+snack.expo.dev 로 바로 화면 볼 수 도 있음
+
+2.1)
+view 는 컨테이너
+div 대신 view
+모든 text 는 text component -> 아닐시 즉시 오류
+view style 로 뭔가..줌..
+style에서 몇몇개의 property는 못함 ex) border
+styleSheet.create 는 object 생성시 사용
+    => 매우 좋은 자동완성 기능을 줌
+    스타일 component 정리하는데도 좋음
+    꼭 해야할 필요는 x style 분리시에 사용
+    분리시에도 굳이 사용안해도 됨
+항상 view text stylesheet 등등 import
+
+status-bar 는 배터리 시간 등등...표시해줌
+
+2.2)
+reactNative component 볼 수 있음
+only for IOS only for ANdroid
+모든 component 지원 X 
+
+2.3)
+component : 화면에 랜더링할..요소 return 안에 있는
+api: 자바 스크립트 코드
+
+스토리지를 원하면 직접 만들어서 사용
+ -> 커뮤니티에서 패키지.. 만들어서 사용됨. rn 팀에서 x
+expo sdk 
+
+
+2.4)
+rn 에는 flexbox 만
+모든 viw 가 flex direction
+반응형 레이아웃에 대해서 생각. 스크린 사이즈가 매우 다양
+with x height x 
+flex 로 조절 --> 비율
+flex 의 부모가 매우 중요 flex 는 비율이기때문에
+부모를 만들고 자식으로 비율 조절이 가능
+
+2.6)
+
+expo install expo-location
+
+expo-location으로 유저 정보를 가져올 수 있음 
+
+2.7)
+openweathermap.org/api
+
+2.8 
+fontigo 가서 아이콘 가져오기
