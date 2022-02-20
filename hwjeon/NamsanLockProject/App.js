@@ -28,10 +28,9 @@ import {
 
 import {
   modeColor
-} from './theme/colors';
+} from './theme/Colors';
 
 const Section = ({children, title}): Node => {
-  console.log(modeColor);
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -39,7 +38,7 @@ const Section = ({children, title}): Node => {
         style={[
           styles.sectionTitle,
           {
-            color: isDarkMode ? Colors.white : Colors.black,
+             color: isDarkMode ? modeColor.dark.font : modeColor.light.font,
           },
         ]}>
         {title}
@@ -48,7 +47,7 @@ const Section = ({children, title}): Node => {
         style={[
           styles.sectionDescription,
           {
-            color: isDarkMode ? Colors.light : Colors.dark,
+            color: isDarkMode ? modeColor.dark.font : modeColor.light.font,
           },
         ]}>
         {children}
@@ -59,9 +58,8 @@ const Section = ({children, title}): Node => {
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
-
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    backgroundColor: isDarkMode ? modeColor.dark.background : modeColor.light.background,
   };
 
   return (
@@ -73,7 +71,7 @@ const App: () => Node = () => {
         <Header />
         <View
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            backgroundColor: isDarkMode ? modeColor.dark.background : modeColor.light.background,
           }}>
           <Section title="Step One" >
 
@@ -112,6 +110,7 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+    color: modeColor.dark.background,
   },
 });
 

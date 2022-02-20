@@ -1,4 +1,4 @@
-const modeColor = {
+export const modeColor = {
     light: {
         background: "#F4F3EE",
         font: "#463F3A",
@@ -7,13 +7,11 @@ const modeColor = {
     },
     dark: {
         background: "#463F3A",
-        font: "F4F3EE",
-        contents: "BCB8B1",
-        button: "E0AFA0"
+        font: "#F4F3EE",
+        contents: "#BCB8B1",
+        button: "#E0AFA0"
     }
 };
-
-export default modeColor;
 
 // 일반모드
 // 배경색 - F4F3EE
